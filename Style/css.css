@@ -1,0 +1,20 @@
+h1{
+    background-color: blueviolet ;
+    color: white;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(228, 19, 19);
+}
+nav li:hover{
+    background-color: rgb(55, 17, 136);
+    
+}
