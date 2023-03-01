@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style/css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(189, 5, 250);
+}
+nav li:hover{
+    background-color: rgb(55, 17, 136);
+    
+}
+td,th{
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+    text-emphasis: 10px;
+}
+table{
+    border-collapse: collapse;
+} 
+nav li .dropdown{
+    display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: blanchedalmond;
+    padding-left: 0px;
+}
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a> </li>
+                <li> 
+                    <a href="Index.html">Index</a>
+                    <ul class="dropdown">
+                        <li><a href="">Home</a></li>
+                        <li><a href="Index.html">Index</a> </li>
+                        <li><a href="tamim.html">Sumonto </a></li>
+                        <li><a href="">Kumonto</a></li>
+                    </ul>
+               </li>
+                <li><a href="Table.html">Table </a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+   <table>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Mark Zukerburg</td>
+            <td>Facebook</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>September</td>
+            <td>Google</td>
+            <td>1500</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Octobor</td>
+            <td>Microsoft</td>
+            <td>$1600</td>
+        </tr>
+    </tbody>
+   </table>
+</body>
+</html>
